@@ -1,0 +1,46 @@
+#UrlAnimation {
+    width: 100%;
+    height: 100%;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+
+    #Header {
+        width: 100%;
+        height: 150px;
+        background-color: slategrey;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+
+        .anime {
+            cursor: pointer;
+            transition: ease-in-out .2s;
+            &:hover {
+                color: red;
+            }
+            &:active {
+                color: maroon;
+            }
+        }
+
+        .animeDisable {
+            cursor: progress;
+            transition: ease-in-out .2s;
+            color: rgb(53, 53, 53);
+        }
+    }
+
+    #Pages {
+        width: 100%;
+        height: calc(100% - 150px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 3em;
+    }
+}
