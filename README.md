@@ -5,7 +5,7 @@
 
 ### Installation
 
-Install the dependencies and devDependencies and start the server.
+Install the dependencies.
 
 ```sh
 $ cd url-animation
@@ -17,7 +17,7 @@ run development server.
 ```sh
 $ npm start
 ```
-For make buid.
+make build.
 
 ```sh
 $ npm run build
